@@ -4,31 +4,29 @@
     <meta charset="utf-8">
     <title>Technical Documentation</title>
     <link href="https://fonts.googleapis.com/css?family=Bitter|Lato:400,700&display=swap" rel="stylesheet">
-    <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous">
+    <!-- <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.3.1/css/bootstrap.min.css" integrity="sha384-ggOyR0iXCbMQv3Xipma34MD+dH/1fQ784/j6cY/iJTQUOhcWr7x9JvoRxT2MZw1T" crossorigin="anonymous"> -->
     <link rel="stylesheet" href="styles.css">
   </head>
   <body>
 
-    <nav id="nav-bar">
+    <nav id="navbar">
       <header class="nav-header">
         <h1>Ruby:<br>The Basics</h1>
       </header>
-      <a class="nav-link" href="#">About Ruby</a>
-      <a class="nav-link" href="#">Stuff</a>
-      <a class="nav-link" href="#">More Stuff</a>
-      <a class="nav-link" href="#">A 4th Section</a>
-      <a class="nav-link" href="#">A 5th Section</a>
+      <a class="nav-link" href="#About_Ruby">About Ruby</a>
+      <a class="nav-link" href="#Fun_Facts">Fun Facts</a>
+      <a class="nav-link" href="#Hello_World">Hello World</a>
+      <a class="nav-link" href="#Syntax">Syntax</a>
+      <a class="nav-link" href="#Learn_More">Learn More</a>
     </nav>
 
     <main id="main-doc">
 
-      <section class="main-section" id="name-of-section">
+      <section class="main-section" id="About_Ruby">
 
         <header>
           <h2>About Ruby</h2>
         </header>
-
-        <code> Need five code elements - print("Hello World")</code>
 
         <p>Ruby is a language of careful balance. Its creator, Yukihiro “Matz” Matsumoto, blended parts of his favorite languages (Perl, Smalltalk, Eiffel, Ada, and Lisp) to form a new language that balanced functional programming with imperative programming.</p>
 
@@ -36,82 +34,83 @@
 
         <p>Building on this, he adds:</p>
 
+        <br>
+
         <p><i>"Ruby is simple in appearance, but is very complex inside, just like our human body."</i></p>
 
+      </section>
+
+      <section class="main-section" id="Fun_Facts">
+
+        <header>
+          <h2>Fun Facts</h2>
+        </header>
+
+        <p>What makes Ruby unique?</p>
+
         <ul>
-          <li>Need five of these guys total / or ordered list items...</li>
+          <li>Ruby was invented in Japan.</li>
+          <li>But it reads like plain English.</li>
+          <li>Syntax is intuitive and descriptive</li>
+          <li>Everything is an object</li>
+          <li>Ruby is an open source language.</li>
+          <li>Cartoon foxes - look into it...</li>
         </ul>
 
       </section>
 
-      <section class="main-section" id="name-of-section">
+      <section class="main-section" id="Hello_World">
 
         <header>
-          <h2>Oxidative Addition</h2>
+          <h2>Hello World</h2>
         </header>
 
-        <code> Need five code elements - print("Hello World")</code>
+        <p>Text or strings are displayed in Ruby by using puts (for put string), which prints the string and adds a newline to the end of the string.</p>
 
-        <p>Need ten total p elems in all</p>
+        <code>puts "Hello World"</code>
 
-        <p>Here is more text that I found</p>
+        <p>Alternatively, the print command can be used. The difference between these two commands is that print does not add a newline to the end of the statement.</p>
 
-        <ul>
-          <li>Need five of these guys total / or ordered list items...</li>
-        </ul>
+        <code>print "hello World"</code>
 
       </section>
 
-      <section class="main-section" id="name-of-section">
+      <section class="main-section" id="Syntax">
 
         <header>
-          <h2>Oxidative Addition</h2>
+          <h2>Syntax</h2>
         </header>
 
-        <code> Need five code elements - print("Hello World")</code>
+        <p>Ruby is known for it's elegant syntax - take one line if statements for example.</p>
 
-        <p>Need ten total p elems in all</p>
+        <code>puts "Get some coffee" if alertness == 0</code>
 
-        <p>Here is more text that I found</p>
+        <p>Here is an example of a Ruby method. Notice the absence of curly braces and semicolons.</p>
 
-        <ul>
-          <li>Need five of these guys total / or ordered list items...</li>
-        </ul>
+        <code>def say_hello(name)<br>    return "Hello, " + name<br>end</code>
+
+        <p>One of the many cool Ruby features are implicit return statements.
+        In Ruby methods return the last statement that is evaluated, meaning that the previous method can be simpified to... </p>
+
+        <code>def say_hello(name)<br>     "Hello, " + name<br>end</code>
 
       </section>
 
-      <section class="main-section" id="name-of-section">
+      <section class="main-section" id="Learn_More">
 
         <header>
-          <h2>Oxidative Addition</h2>
+          <h2>Learn More</h2>
         </header>
 
-        <code> Need five code elements - print("Hello World")</code>
-
-        <p>Need ten total p elems in all</p>
-
-        <p>Here is more text that I found</p>
+        <p>As my first programming language Ruby holds a special place in my heart. This page, however, is really just an exercise in formatting a technical documentation page using HTML and CSS - as a result I didn't want to spend any appreciable amount of time creating and or curating the content.
+          Ruby is a cool language though and if you find yourself reading this and would like to know more I've included a list of the resources I used to learn Ruby. Enjoy.</p>
 
         <ul>
-          <li>Need five of these guys total / or ordered list items...</li>
-        </ul>
-
-      </section>
-
-      <section class="main-section" id="name-of-section">
-
-        <header>
-          <h2>Oxidative Addition</h2>
-        </header>
-
-        <code> Need five code elements - print("Hello World")</code>
-
-        <p>Need ten total p elems in all</p>
-
-        <p>Here is more text that I found</p>
-
-        <ul>
-          <li>Need five of these guys total / or ordered list items...</li>
+          <li>Learn to Program by Chris Pine</li>
+          <li>Why's Poignant Guide to Ruby</li>
+          <li>Codeacademy Ruby Track</li>
+          <li>Codesdope Ruby Course</li>
+          <li>Codewars</li>
         </ul>
 
       </section>
